@@ -1,0 +1,61 @@
+.nav-button {
+  color: #f7ce3e;
+  background: linear-gradient(
+    45deg,
+    rgba(197, 193, 192, 1) 0%,
+    rgba(10, 22, 18, 1) 40%,
+    rgba(10, 22, 18, 1) 100%
+  );
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.nav-button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(197, 193, 192, 1) 0%,
+    rgba(10, 22, 18, 1) 40%,
+    rgba(10, 22, 18, 1) 100%
+  );
+  transition: 0.5s;
+}
+
+.nav-button.nav-button--active {
+  color: #000;
+  background: rgb(247, 206, 62);
+  text-decoration: overline;
+  transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .nav-button {
+    font-size: 16px;
+  }
+  .nav-button:hover {
+    background: none;
+    background: linear-gradient(
+      90deg,
+      rgba(197, 193, 192, 1) 0%,
+      rgba(10, 22, 18, 1) 40%,
+      rgba(10, 22, 18, 1) 100%
+    );
+  }
+
+  .nav-button.nav-button--active {
+    color: #000;
+    background: rgb(247, 206, 62);
+    text-decoration: underline;
+  }
+  #check:checked ~ .navigation-ul {
+    z-index: 10;
+    left: 0;
+  }
+}

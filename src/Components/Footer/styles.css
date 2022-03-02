@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  height: 20px;
+}
+
+.footer i {
+  background: linear-gradient(
+    90deg,
+    rgba(247, 206, 62, 1) 0%,
+    rgba(255, 255, 255, 1) 85%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  pointer-events: none;
+  font-size: 10px;
+  font-weight: 500;
+  padding-right: 10px;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 60px;
+  }
+}

@@ -1,0 +1,54 @@
+.dog-heading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dog img {
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+  box-shadow: 1px 1px 3px 3px rgba(255, 255, 255, 1);
+}
+
+.dog-btn {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100px;
+  height: 40px;
+  align-content: center;
+  color: #f7ce3e;
+  background: rgb(197, 193, 192);
+  background: linear-gradient(
+    45deg,
+    rgba(197, 193, 192, 1) 0%,
+    rgba(10, 22, 18, 1) 40%,
+    rgba(10, 22, 18, 1) 100%
+  );
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.dog-btn:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(197, 193, 192, 1) 0%,
+    rgba(10, 22, 18, 1) 40%,
+    rgba(10, 22, 18, 1) 100%
+  );
+  transition: 0.5s;
+}
+
+@media (max-width: 547px) {
+  .dog {
+    display: flex;
+    flex-direction: column;
+  }
+}

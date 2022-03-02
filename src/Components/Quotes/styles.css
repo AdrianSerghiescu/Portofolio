@@ -1,0 +1,62 @@
+.quote-container h1 {
+  margin-left: 35%;
+  outline: none;
+  border: none;
+}
+
+.quote-box {
+  width: 40rem;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 3px rgb(253, 250, 44);
+}
+
+.quote-text p {
+  backdrop-filter: blur(5px);
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.quote-author p {
+  color: #f7ce3e;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+}
+
+.quote-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.new-quote {
+  color: #f7ce3e;
+  background: rgb(197, 193, 192);
+  background: linear-gradient(
+    45deg,
+    rgba(197, 193, 192, 1) 0%,
+    rgba(10, 22, 18, 1) 40%,
+    rgba(10, 22, 18, 1) 100%
+  );
+  border: none;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.new-quote:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(197, 193, 192, 1) 0%,
+    rgba(10, 22, 18, 1) 40%,
+    rgba(10, 22, 18, 1) 100%
+  );
+  transition: 0.5s;
+}

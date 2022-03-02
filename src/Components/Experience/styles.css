@@ -1,0 +1,228 @@
+.experience h1 {
+  color: #fff;
+}
+
+.experience-container {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2.2rem;
+}
+
+.experience-post {
+  width: 100%;
+  max-width: 75rem;
+  padding: 1rem;
+  margin-top: 20px;
+  background: rgba(26, 41, 48, 1);
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+}
+
+.content-img {
+  min-width: 25rem;
+  max-width: 25rem;
+  transform: translateX(-4rem);
+  position: relative;
+}
+
+.content-img img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0.8rem;
+}
+
+.content-date span {
+  display: block;
+  color: #f7ce3e;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  pointer-events: none;
+}
+
+.content-title {
+  font-size: 1.5rem;
+  margin-top: 1.5rem 0 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  pointer-events: none;
+}
+
+.content-text {
+  pointer-events: none;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 206, 62, 1) 0%,
+    rgba(255, 255, 255, 1) 75%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1068px) {
+  .experience-post {
+    max-width: 80rem;
+  }
+  .content-img {
+    min-width: 25rem;
+    max-width: 25rem;
+  }
+  .experience-container {
+    height: 175vh;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .experience-post {
+    max-width: 30rem;
+    flex-direction: column;
+  }
+  .experience-container {
+    height: 205vh;
+  }
+
+  .content-img {
+    min-width: 100%;
+    max-width: 100%;
+    transform: translate(0, -2rem);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .experience-post {
+    padding: 2.5rem;
+    flex-direction: column;
+  }
+  .content-img {
+    min-width: 100%;
+    max-width: 100%;
+    transform: translate(0, -2rem);
+  }
+  .experience-container {
+    height: 225vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .experience-container {
+    height: 285vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .experience-container {
+    height: 305vh;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .experience-container {
+    height: 405vh;
+  }
+}
+
+.title-xp {
+  margin-left: 40px;
+  pointer-events: none;
+}
+
+.xp-skills {
+  padding: 15px 15px;
+  margin-left: 35px;
+}
+
+.xp-item {
+  margin-bottom: 30px;
+  margin-right: 100px;
+}
+
+.xp-item h5 {
+  pointer-events: none;
+  color: #fff;
+  line-height: 40px;
+  font-size: 17px;
+  font-family: "Poppins" sans-serif;
+  letter-spacing: 1px;
+}
+
+.xp-item span {
+  margin-right: 15px;
+}
+
+.xp-progress {
+  background: #fff;
+  height: 4px;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.progress-in-html,
+.progress-in-css,
+.progress-in-js,
+.progress-in-react,
+.progress-in-github {
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 1px;
+  background: #f7ce3e;
+}
+
+.xp-percent {
+  line-height: 40px;
+  float: right;
+  right: 0;
+  color: #f7ce3e;
+  pointer-events: none;
+  top: -40px;
+  font-weight: bold;
+}
+
+.xp-item span {
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.xp-item span:hover {
+  transform: translateY(-2px);
+}
+
+.progress-in-html {
+  width: 90%;
+}
+.progress-in-css {
+  width: 60%;
+}
+.progress-in-js {
+  width: 45%;
+}
+.progress-in-react {
+  width: 30%;
+}
+.progress-in-github {
+  width: 75%;
+}
+
+.span-html {
+  color: #ff540a;
+}
+.span-css {
+  color: #496ddb;
+}
+.span-js {
+  color: #eeb61b;
+}
+.span-react {
+  color: #19e9f0;
+}
+.span-github {
+  color: #fff;
+}

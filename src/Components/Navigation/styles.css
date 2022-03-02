@@ -1,0 +1,58 @@
+.navigation-nav {
+  height: 60px;
+  width: 100%;
+}
+
+.navigation-ul {
+  float: right;
+  margin-right: 20px;
+}
+
+.navigation-ul li {
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 5px;
+}
+
+.nav-check {
+  font-size: 30px;
+  position: absolute;
+  z-index: 11;
+  color: #f7ce3e;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-check {
+    display: block;
+  }
+  .navigation-ul {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 255vh;
+    background-image: url("https://www.xmple.com/wallpaper/black-glow-hexagon-white-gradient-yellow-1920x1080-c4-000000-ffffff-bdb76b-000000-l2-1-59-a-30-f-6.svg");
+    background-size: cover;
+    top: 0;
+    bottom: 100%;
+    left: -100%;
+    text-align: center;
+    transition: all 1s;
+  }
+  .navigation-nav .navigation-ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .navigation-nav .navigation-ul li .nav-button {
+    font-size: 20px;
+  }
+}

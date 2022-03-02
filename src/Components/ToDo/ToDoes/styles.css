@@ -1,0 +1,44 @@
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background: #f7ce3e;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.todo-row:nth-child(4n + 1) {
+  background: #f7ce3e;
+}
+
+.todo-row:nth-child(4n + 2) {
+  background: #f7ce3e;
+}
+
+.todo-row:nth-child(4n + 3) {
+  background: #f7ce3e;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.edit-icon {
+  color: #fff;
+}
